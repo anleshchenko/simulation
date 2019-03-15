@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FinalTaskWEB:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FinalTask</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FinalTaskWEB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.15" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:8.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FinalTaskWEB/web/Web" />
+    </root>
+  </artifact>
+</component>

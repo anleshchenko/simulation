@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<simulation>
+
+    <stations>
+        <station id = "1" name = "1"/>
+        <station id = "2" name = "2"/>
+        <station id = "3" name = "3"/>
+        <station id = "4" name = "4"/>
+        <station id = "5" name = "5"/>
+        <station id = "6" name = "6"/>
+        <station id = "7" name = "7"/>
+        <station id = "8" name = "8"/>
+        <station id = "9" name = "9"/>
+        <station id = "10" name = "10"/>
+        <station id = "11" name = "11"/>
+        <station id = "12" name = "12"/>
+        <station id = "13" name = "13"/>
+        <station id = "14" name = "14"/>
+        <station id = "15" name = "15"/>
+        <station id = "16" name = "16"/>
+        <station id = "17" name = "17"/>
+        <station id = "18" name = "18"/>
+        <station id = "19" name = "19"/>
+        <station id = "20" name = "20"/>
+    </stations>
+
+    <routes>
+        <route id = "56" circle = "false" breakTime = "10">
+            <node stationId = "1" nextTime = "5"/>
+            <node stationId = "2" nextTime = "6"/>
+            <node stationId = "3" nextTime = "7"/>
+            <node stationId = "4" nextTime = "5"/>
+            <node stationId = "5" nextTime = "-1"/>
+        </route>
+        <route id = "74" circle = "false" breakTime = "10">
+            <node stationId = "6" nextTime = "4"/>
+            <node stationId = "7" nextTime = "6"/>
+            <node stationId = "8" nextTime = "5"/>
+            <node stationId = "9" nextTime = "5"/>
+            <node stationId = "10" nextTime = "-1"/>
+        </route>
+        <route id = "35" circle = "false" breakTime = "10">
+            <node stationId = "11" nextTime = "8"/>
+            <node stationId = "12" nextTime = "4"/>
+            <node stationId = "13" nextTime = "4"/>
+            <node stationId = "14" nextTime = "5"/>
+            <node stationId = "15" nextTime = "-1"/>
+        </route>
+        <route id = "48" circle = "false" breakTime = "10">
+            <node stationId = "16" nextTime = "6"/>
+            <node stationId = "17" nextTime = "5"/>
+            <node stationId = "18" nextTime = "6"/>
+            <node stationId = "19" nextTime = "7"/>
+            <node stationId = "20" nextTime = "-1"/>
+        </route>
+        <route id = "20" circle = "false" breakTime = "10">
+            <node stationId = "3" nextTime = "5"/>
+            <node stationId = "6" nextTime = "5"/>
+            <node stationId = "9" nextTime = "6"/>
+            <node stationId = "12" nextTime = "7"/>
+            <node stationId = "15" nextTime = "5"/>
+            <node stationId = "18" nextTime = "-1"/>
+        </route>
+        <route id = "11" circle = "false" breakTime = "10">
+            <node stationId = "2" nextTime = "8"/>
+            <node stationId = "4" nextTime = "6"/>
+            <node stationId = "8" nextTime = "10"/>
+            <node stationId = "12" nextTime = "5"/>
+            <node stationId = "16" nextTime = "9"/>
+            <node stationId = "20" nextTime = "-1"/>
+        </route>
+    </routes>
+
+</simulation>
+
